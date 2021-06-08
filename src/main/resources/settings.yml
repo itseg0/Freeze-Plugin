@@ -1,0 +1,44 @@
+# -------------------------------------------------------------------------------------------
+#
+#  Welcome to 'Freeze' by Eg0
+#
+#  Most of the Config settings are self-explanatory, but with Frozen_Message
+#  please take note that the list of names will come after your message.
+#  So if your Frozen_Message = "&cFrozen Players: " then the list of players will print
+#  afterwards.
+#
+#  If you'd like to view the default file, you can:
+#  Open the Freeze.jar with a WinRar or similar
+#
+# For futher help, please add my Discord: Eg0#1337
+# -------------------------------------------------------------------------------------------
+
+
+Freeze:
+  Freeze_Prefix: "&7&l[&b&lFreeze&7&l]&7// "
+  Freeze_Message: "&7&l{Player} &7Has been frozen for: &c&l{Reason}"
+  Freeze_NoArgs: "&cPlease enter a player name and a reason for freezing."
+  Freeze_OneArg: "&cPlease enter a reason for freezing."
+
+Unfreeze:
+  Unfreeze_Prefix: "&7&l[&b&lFreeze&7&l]&7// "
+  Unfreeze_NoArgs: "&cPlease enter a player name that's frozen"
+  Unfreeze_Message: "&7&l{Player} &7Has been unfrozen"
+
+Frozen:
+  Frozen_Prefix: "&7&l[&b&lFreeze&7&l]&7// "
+  Frozen_Message: "&7Frozen Players: "
+
+FreezeAll:
+  FreezeAll_Prefix: "&7&l[&b&lFreeze&7&l]&7// "
+  FreezeAll_Message: "&7Everyone's been frozen."
+
+AutoBan:
+  AutoBan_Prefix: "&7&l[&b&lFreeze&7&l]&7// "
+  AutoBan_Ban_Message: "You left while frozen"
+  AutoBan_True_Message: "&7Auto ban is now: &a&lOn"
+  AutoBan_False_Message: "&7Auto ban is now: &c&lOff"
+
+Log_Lag_Over_Milis: 100
+Debug: [ ]
+Version: 1
